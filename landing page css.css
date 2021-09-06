@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 50px;
+  font-size: 18px;
+}
+
+.nav img {
+  width: 400px;
+}
+
+.topclick {
+  margin-top: 20px;
+  background-color: white;
+  height: 30px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  color: hsl(321, 100%, 78%);
+  border-radius: 15px;
+  border: 1px solid hsl(321, 100%, 78%);
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.svg2 {
+  margin-left: 850px;
+}
+
+.build {
+  text-align: center;
+}
+
+.p1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.header1 {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 100px;
+}
+.km {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  margin-top: 70px;
+}
+
+.k4 {
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.m2 {
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.m {
+  margin-left: 500px;
+}
+.h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.section1 {
+  width: 100%;
+}
+
+.growdescription {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(207, 100%, 98%);
+  margin-top: -20px;
+}
+
+.Grow {
+  margin-top: 200px;
+}
+
+.flowingdisription {
+  display: flex;
+  flex-direction: row;
+}
+.section2 {
+  width: 100%;
+}
+.flowing {
+  margin-top: 60px;
+}
+.p1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.p {
+  margin-top: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.section3 {
+  width: 100%;
+}
+
+.usersdiscription {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(207, 100%, 98%);
+  margin-top: -20px;
+}
+.users {
+  margin-top: 400px;
+}
+
+.main {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.click2 {
+  margin-top: 30px;
+  color: hsl(207, 100%, 98%);
+  background-color: hsl(0, 100%, 63%);
+  border-radius: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid hsl(321, 100%, 78%);
+}
+
+.footer2 {
+  margin-top: 300px;
+  width: 100%;
+  background-color: hsl(192, 100%, 9%);
+  margin-top: -8px;
+}
+.footer3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.Newsletter {
+  margin-top: 300px;
+
+  margin-left: 400px;
+}
+.huddle {
+  margin-top: 300px;
+  margin-left: 80px;
+}
+#phone {
+  margin-left: 20px;
+}
+.mail {
+  display: flex;
+  flex-direction: row;
+}
+.tele {
+  display: flex;
+  flex-direction: row;
+}
+#email {
+  margin-left: 20px;
+  color: hsl(207, 100%, 98%);
+}
+
+.mailphone {
+  margin-top: 20px;
+  color: hsl(207, 100%, 98%);
+}
+.socialmedias {
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: row;
+}
+#twitter {
+  margin-left: 20px;
+  background-color: hsl(207, 100%, 98%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#facebook {
+  margin-left: 20px;
+  background-color: hsl(207, 100%, 98%);
+  padding: 10px;
+  border-radius: 5px;
+}
+#instagram {
+  background-color: hsl(207, 100%, 98%);
+  padding: 10px;
+  border-radius: 5px;
+}
+.h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.pf {
+  margin-top: 50px;
+  color: hsl(207, 100%, 98%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.h3 {
+  color: hsl(207, 100%, 98%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.click3 {
+  color: hsl(207, 100%, 98%);
+  margin-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 22px;
+  padding-right: 22px;
+  background-color: hsl(0, 100%, 63%);
+  border: 1px solid hsl(321, 100%, 78%);
+}
+
+img {
+  width: 100%;
+}
+
+.inputs {
+  margin-top: 50px;
+}
+.click1:hover {
+  background-color: hsl(321, 100%, 78%);
+}
+.click2:hover {
+  background-color: hsl(321, 100%, 78%);
+}
+.click3:hover {
+  background-color: hsl(321, 100%, 78%);
+}
+#twitter:hover {
+  background-color: green;
+}
+#facebook:hover {
+  background-color: green;
+}
+#instagram:hover {
+  background-color: green;
+}
+
+#caption {
+  color: hsl(0, 100%, 63%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.topclick:hover {
+  color: hsl(0, 100%, 63%);
+  border: 1px solid hsl(0, 100%, 63%);
+}
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 100%;
+  }
+  .topclick {
+    font-size: 10px;
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .logo {
+    max-width: 40%;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .header1 {
+    font-size: 15px;
+  }
+
+  .km {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+  }
+  .m {
+    margin-left: 0px;
+  }
+  .section1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .growdescription {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .Grow {
+    font-size: 13px;
+  }
+
+  .imagegrow {
+    width: 350px;
+  }
+
+  .section2 {
+    width: 100%;
+    text-align: center;
+  }
+  .flowingdisription {
+    display: flex;
+    flex-direction: column;
+  }
+  .flowimage {
+    width: 350px;
+  }
+  .flowing {
+    font-size: 13px;
+  }
+  .section3 {
+    width: 100%;
+    text-align: center;
+  }
+  .usersdiscription {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .imageuser {
+    width: 350px;
+  }
+  .users {
+    font-size: 15px;
+    margin-top: 100px;
+  }
+  .main {
+    font-size: 15px;
+    margin-bottom: 70px;
+  }
+  .footer2 {
+    width: 100%;
+  }
+  .footer3 {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .Newsletter {
+    margin-left: 0px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .huddle {
+    text-align: center;
+  }
+  .huddled {
+    margin-right: 90px;
+  }
+}
